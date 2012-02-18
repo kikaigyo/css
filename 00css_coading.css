@@ -1,0 +1,188 @@
+/** ブログタイトル作成用のため、実装はしていない **/
+
+.favicon_box {
+	background-color: #e7fcdc;
+	color: #49802a;
+	text-align: center;
+	border: solid #3d3d3d 15px;
+width: 216px;
+height: 216px;
+display:block;
+}
+
+.fav_in {
+font-family: kiloji;
+text-shadow: 2px 2px 2px #2e2516;
+line-height: 216px;
+font-size: 220px;
+
+}
+
+
+.favicon_box2 {
+	background-color: #b8975a;
+	color: #343434;
+	text-align: center;
+	border: solid #3d3d3d 15px;
+width: 216px;
+height: 216px;
+display:block;
+}
+
+.fav_in2 {
+font-family: kiloji;
+text-shadow: 2px 2px 2px #2e2516;
+line-height: 216px;
+font-size: 220px;
+
+}
+
+
+/**  使うやつ  **/
+
+/** codebox_v2 
+.cb2 {
+word-break: break-all;
+color: #4e4e4e;
+font-size: 95%;
+font-family: Menlo, Inconsolate, Helvetica, sans-serif;
+background: #fff;
+display: block;
+border: dashed 1px #cac3b1;
+padding: 1.2em 1em;
+margin: 0.6em auto 1.2em;
+}
+**/
+
+/** 記事の冒頭と本文の画像用 
+.separator2 {
+clear: both;
+display: inline-block;
+border-top: solid 1px #b0b0b0;
+border-bottom: solid 1px #f8f8f8;
+margin:0.5em auto 1.2em;
+}
+
+.separator2 img {
+border:solid 5px #cac3b1;
+}
+
+.separator2.h {margin-top:0em}
+**/
+.separator2 a img:hover {
+opacity: 0.5;
+}
+
+/*****************************
+
+ テーブル
+ 
+******************************/
+
+table.tcc {
+font-family: Menlo, Inconsolate, Helvetica, sans-serif;
+border-collapse: collapse;
+table-layout: fixed;
+}
+
+tbody.tcc,
+thead.tcc {
+background: #f9f9f9;
+}
+
+thead.tcc {
+font-size: 16px;
+}
+.tcc th,
+.tcc td {
+border:solid 1px #c0c0c0;
+vertical-align: middle;
+}
+
+.tcc1 td {background: #ececea}
+
+
+/*****************************
+
+ 
+ 
+******************************/
+
+/** git hub 風ボタンのテストなので、実装はしていない **/
+.btns {
+display: block;
+background: aqua;
+width: 120px;
+}
+ 
+.btns:before {
+content:"";
+background: url(http://blog-imgs-37.fc2.com/t/u/k/tukaikta/gh-icons.png) no-repeat;
+background-position: 0 -84px;
+}
+
+.test_bt {
+display: block;
+background: blue;
+color: white;
+}
+
+.test_bt:before {
+content: ""
+background: url(http://blog-imgs-37.fc2.com/t/u/k/tukaikta/gh-icons.png) 0 99px no-repeat;
+}
+
+.test_bt.btn:before {
+background-position: 0 -84px;
+}
+
+
+/*****************************
+
+ git hub のキーボード
+ 
+******************************/
+
+.kbd{
+  display:inline-block;
+  height:21px;
+  padding:0 4px;
+  line-height:21px;
+  text-align:center;
+  font-size:12px;
+  font-weight:bold;
+  font-family:"Lucida Grande", sans-serif;
+  color:#333;
+  text-shadow:0 1px 0 rgba(255,255,255,1.0);
+  background:url(http://blog-imgs-37.fc2.com/t/u/k/tukaikta/kbd-bg.png) 0 0 repeat-x;
+  box-shadow:0 1px 2px rgba(0,0,0,0.3);
+  border-left:1px solid #bbb;
+  border-right:1px solid #bbb;
+  border-bottom:1px solid #bbb;
+  border-radius:4px;
+}
+
+
+.emwiki {
+    font-weight: normal;
+    font-style: normal;
+    white-space: nowrap;
+    color: #444;
+    border: 1px solid #ccc;
+    padding: .2em .6em;
+    background: #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.syntaxhighlighter {
+font-weight: bold;
+font-family:"Menlo","Inconsolata";
+border: dashed 1px #CAC3B1;
+padding:0.5em 0;
+}
+
+
+
+

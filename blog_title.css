@@ -1,0 +1,54 @@
+/* こっから */
+
+#blog_title_main {
+	margin-top: -5px;
+	margin-right: 25px;
+	float: left;
+	clear: right;
+	font-weight: bold;
+
+	font-family: "MigMix 1P";
+
+	text-shadow: 1px 1px 1px #3d3d3d;
+
+	color: #1d1d19;
+
+	font-size: 25px;
+
+}
+
+#blog_title_main_sub {
+font-family: "VL PGothic";
+text-shadow: 1px 1px 0px #e6deca;
+font-style: normal;
+font-weight: normal;
+color: #a6a091;
+max-width: 190px;
+margin-top: 5px;
+margin-left: 6px;
+font-size: 10px;
+}
+
+#blog_title_footer {
+	text-shadow: 0px 0px;
+	font-family: "VL PGothic";
+	text-align: justify;
+	background-color: #404040;
+/*
+	background-image: url(http://blog-imgs-45.fc2.com/t/u/k/tukaikta/bgt_social.png);
+	background-repeat: repeat-x;
+*/
+	color: white;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+margin-top: 8px;
+margin-left: -4px;
+width: 200px;
+border: ridge 1px #ebe5da;
+padding: 2px;
+
+}
+
+
+/* ここまで */

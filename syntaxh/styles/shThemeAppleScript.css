@@ -1,0 +1,172 @@
+/*
+ * AppleScript theme for SyntaxHighlighter
+ *
+ * SyntaxHighlighter by Alex Gorbatchev
+ * http://alexgorbatchev.com/
+ *
+ * AppleScript theme by David Chambers
+ * http://davidchambersdesign.com/
+ * { last updated: 8 June 2009 }
+ */
+
+div.syntaxhighlighter.applescript,
+div.syntaxhighlighter.applescript div,
+div.syntaxhighlighter.applescript code,
+div.syntaxhighlighter.applescript span,
+div.syntaxhighlighter.applescript .bold,
+div.syntaxhighlighter.applescript .italic,
+div.syntaxhighlighter.applescript div.line,
+div.syntaxhighlighter.applescript div.line code.number,
+div.syntaxhighlighter.applescript div.line span.content,
+div.syntaxhighlighter.applescript div.line span.content span.block,
+div.syntaxhighlighter.applescript div.line span.content code.spaces,
+div.syntaxhighlighter.applescript div.bar,
+div.syntaxhighlighter.applescript div.ruler,
+div.syntaxhighlighter.applescript div.toolbar,
+div.syntaxhighlighter.applescript div.toolbar a,
+div.syntaxhighlighter.applescript div.toolbar a:hover
+{
+	line-height: 1.25em !important;
+	font-family: Verdana, sans-serif !important;
+	font-weight: normal !important;
+}
+
+div.syntaxhighlighter.applescript
+{
+	position: relative !important;
+	top: -1px !important;
+	left: 0 !important;
+	margin: 1.75em 0 -1px 0 !important;
+	width: auto !important;
+	border: 1px solid #ccc !important;
+	background: #f2f2f2 url(bg.png) repeat-y 2.5em 0 !important;
+	padding: 0 !important;
+	font-size: 1.0em !important;
+	overflow: hidden !important;
+}
+
+div.syntaxhighlighter.applescript.nogutter
+{
+	background: #fff !important;
+}
+
+/*
+ruler should not be used since AppleScript is not rendered in monospace font
+*/
+div.syntaxhighlighter.applescript div.ruler
+{
+	display: none !important;
+}
+
+div.syntaxhighlighter.applescript div.toolbar
+{
+	border-left: 1px solid #ddd !important;
+	border-bottom: 1px solid #ddd !important;
+	background-color: #f2f2f2 !important;
+	padding: 2px 5px 2px 0 !important;
+}
+
+div.syntaxhighlighter.applescript div.toolbar a.item
+{
+	margin-left: 5px !important;
+}
+
+div.syntaxhighlighter.applescript div.toolbar a.item:hover, div.syntaxhighlighter div.toolbar a.item:active
+{
+	border-bottom: none !important;
+}
+
+div.syntaxhighlighter.applescript.collapsed div.toolbar
+{
+	border-left: none !important;
+	border-bottom: none !important;
+	padding: 0 !important;
+	font: 1.0em/1.667em "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif !important;
+}
+
+div.syntaxhighlighter.collapsed div.toolbar a,
+div.syntaxhighlighter.collapsed div.toolbar a:hover
+{
+	font: 1.0em/1.667em "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif !important;
+}
+
+div.syntaxhighlighter.applescript div.lines
+{
+	padding: 0.167em 0 0.25em 0 !important;
+}
+
+div.syntaxhighlighter.applescript div.line code.number
+{
+	width: 2.25em !important;
+	padding-right: 0.25em !important;
+	font-size: 1.0em !important;
+	line-height: 1.25em !important;
+	color: #939393 !important;
+}
+
+div.syntaxhighlighter.applescript div.line.highlighted code.number
+{
+	color: #494949 !important;
+}
+
+div.syntaxhighlighter.applescript div.line.highlighted.alt1 span.content,
+div.syntaxhighlighter.applescript div.line.highlighted.alt2 span.content
+{
+	background-color: #b5d5ff !important;
+}
+
+div.syntaxhighlighter.applescript div.line span.content
+{
+	margin-left: 2.583em !important;
+	padding-left: 0.5em !important;
+	color: #000 !important;
+}
+
+div.syntaxhighlighter.applescript.printing div.line span.content
+{
+	border: 0 !important;
+}
+
+div.syntaxhighlighter.applescript div.line span.content span.block
+{
+	padding-left: 5.083em !important;
+	text-indent: -5.083em !important;
+}
+
+/*
+disable margin on the lines when no gutter option is set
+*/
+div.syntaxhighlighter.applescript.nogutter div.line span.content
+{
+	margin-left: 0 !important;
+}
+
+div.syntaxhighlighter.applescript code.comments
+{
+	font-style: normal !important;
+	color: #4d4e4e !important;
+}
+
+div.syntaxhighlighter.applescript code.keyword
+{
+	font-weight: bold !important;
+	color: #3207fd !important;
+}
+
+div.syntaxhighlighter.applescript code.operator,
+div.syntaxhighlighter.applescript code.standard,
+div.syntaxhighlighter.applescript code.string
+{
+	color: #000 !important;
+}
+
+div.syntaxhighlighter.applescript code.plain,
+div.syntaxhighlighter.applescript code.userdef
+{
+	color: #417f0a !important;
+}
+
+div.syntaxhighlighter.applescript code.special
+{
+	color: #1c06fd !important;
+}
