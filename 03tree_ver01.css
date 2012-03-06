@@ -9,10 +9,10 @@ table{border-collapse:collapse;border-spacing:0;width:100%}
 body {
 background-image: url(http://blog-imgs-37.fc2.com/t/u/k/tukaikta/back_body.gif);
 
-font:14px Verdana, Arial, "¥Ò¥é¥®¥Î³Ñ¥´ Pro W3", 'Hiragino Kaku Gothic Pro', Osaka, "£Í£Ó £Ð¥´¥·¥Ã¥¯", sans-serif;
+font:14px Verdana, Arial, "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", 'Hiragino Kaku Gothic Pro', Osaka, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", sans-serif;
 
 /*
-font: 14px '¥Ò¥é¥®¥Î´Ý¥´ Pro W4', 'Hiragino Maru Gothic Pro', '¥Ò¥é¥®¥Î³Ñ¥´ ProN W3', '¥á¥¤¥ê¥ª', 'Meiryo', 'Osaka', '£Í£Ó £Ð¥´¥·¥Ã¥¯', 'MS PGothic', sans-serif
+font: 14px 'ãƒ’ãƒ©ã‚®ãƒŽä¸¸ã‚´ Pro W4', 'Hiragino Maru Gothic Pro', 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ ProN W3', 'ãƒ¡ã‚¤ãƒªã‚ª', 'Meiryo', 'Osaka', 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', 'MS PGothic', sans-serif
 */
 line-height:1.4;
 font-size:small !important;
@@ -115,7 +115,7 @@ list-style-type:none;
 }
 
 table {
-font-size:small¡¡ !important;
+font-size:smallã€€ !important;
 }
 /* Layout
 ------------------------------------------------------------ */
@@ -594,7 +594,7 @@ font-size:85%;
 
 /*****************************
 
- ¸¡º÷
+ æ¤œç´¢
  
 ******************************/
 
@@ -637,7 +637,7 @@ background: -moz-linear-gradient(
 }
 
 
-/*-- ¸¡º÷¥Ü¥¿¥ó --*/
+/*-- æ¤œç´¢ãƒœã‚¿ãƒ³ --*/
 #cse-search-box input[type="submit"],
 input[type="submit"] {
 border:1px solid #777;
@@ -766,7 +766,7 @@ line-height:1.6;
 }
 /*****************************
 
- ÊÔ½¸¥Ü¥¿¥ó
+ ç·¨é›†ãƒœã‚¿ãƒ³
  
 ******************************/
 .pc_env {
@@ -798,7 +798,7 @@ border-style:none;
 }
 /*****************************
 
- ¥ê¥¹¥È
+ ãƒªã‚¹ãƒˆ
  
 ******************************/
 
@@ -894,7 +894,7 @@ margin-top:5px;
 
 /*****************************
 
-footerÄÉ²Ã
+footerè¿½åŠ 
 
 *****************************/
 
@@ -909,7 +909,7 @@ font-size:75%;
 
 /*****************************
 
- ¥á¥¤¥ó¥Ú¡¼¥¸ÄÉ²Ã
+ ãƒ¡ã‚¤ãƒ³ãƒšãƒ¼ã‚¸è¿½åŠ 
  
 ******************************/
 
@@ -940,7 +940,7 @@ border:solid 1px transparent;
 
 /*****************************
 	
-	 ´ØÏ¢µ­»ö
+	 é–¢é€£è¨˜äº‹
 	 
 ******************************/
 #relate_t {
@@ -998,7 +998,7 @@ padding-left:0.5em;
 
 /*****************************
 
-¥µ¥¤¥È¥Þ¥Ã¥× 
+ã‚µã‚¤ãƒˆãƒžãƒƒãƒ— 
  
 ******************************/
 .map_body {
@@ -1020,7 +1020,7 @@ color:#4e4e4e;
 
 h4.smt span {
 color:#b0b0b0;
-font:65% Verdana, Arial, '¥Ò¥é¥®¥Î³Ñ¥´ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, '£Í£Ó £Ð¥´¥·¥Ã¥¯', sans-serif;
+font:65% Verdana, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
 margin-left:0.8em;
 }
 
@@ -1240,7 +1240,7 @@ display:block;
 }
 /*****************************
 
- ¥³¥á¥ó¥È
+ ã‚³ãƒ¡ãƒ³ãƒˆ
  
 ******************************/
 .comments_body {
