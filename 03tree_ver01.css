@@ -8,11 +8,15 @@ table{border-collapse:collapse;border-spacing:0;width:100%}
 *****************************/
 body {
 background-image: url(http://blog-imgs-37.fc2.com/t/u/k/tukaikta/back_body.gif);
-font:14px Verdana, Arial, '¥Ò¥é¥®¥Î³Ñ¥´ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, '£Í£Ó £Ð¥´¥·¥Ã¥¯', sans-serif;
+
+font:14px Verdana, Arial, "¥Ò¥é¥®¥Î³Ñ¥´ Pro W3", 'Hiragino Kaku Gothic Pro', Osaka, "£Í£Ó £Ð¥´¥·¥Ã¥¯", sans-serif;
+
+/*
+font: 14px '¥Ò¥é¥®¥Î´Ý¥´ Pro W4', 'Hiragino Maru Gothic Pro', '¥Ò¥é¥®¥Î³Ñ¥´ ProN W3', '¥á¥¤¥ê¥ª', 'Meiryo', 'Osaka', '£Í£Ó £Ð¥´¥·¥Ã¥¯', 'MS PGothic', sans-serif
+*/
 line-height:1.4;
 font-size:small !important;
 }
-
 
 html>/**/body {
 font-size:14px;
