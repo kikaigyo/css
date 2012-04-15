@@ -184,5 +184,20 @@ padding:0.5em 0;
 }
 
 
+/*****************************
 
+hr
 
+******************************/
+hr.dot {
+font-weight: bold;
+background-position: 5px;
+border-radius: px;
+border: dotted 3px #cac3b1;
+}
+
+/*****************************
+
+ h_装飾
+ 
+******************************/

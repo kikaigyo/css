@@ -357,26 +357,6 @@ padding:4px;
 }
 
 
-
-/*****************************
-
-blockquote
- 
-******************************/
-.blockquote,.bqs {
-word-wrap:break-word;
-background-image:url(https://sites.google.com/site/syouyudukesub/home/background/pa5.jpg);
-width:85%;
-text-shadow:0 1px 0 #fff;
-text-align:left;
-color:#3f3f3f;
-border-color:#666;
-border-style:dotted dotted dotted solid;
-border-width:1px 1px 1px 9px;
-margin:1em auto;
-padding:1em;
-}
-
 /*****************************
 
  Terminal
@@ -944,4 +924,27 @@ border:solid 5px #cac3b1;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
+}
+
+/*****************************
+
+ blockquote
+ 
+******************************/
+
+.blockquote,.bqs,.bq3 {
+border-bottom:solid 1px #D8D8D8;
+border-top:solid 1px #D8D8D8;
+word-break: break-strict;
+max-width: 540px;
+background-position: 10px 12px;
+color: #1d1d19;
+background-color: #e2e2e2;
+background-repeat: no-repeat;
+background-image: url(https://lh3.googleusercontent.com/-EKs0Z9qBf0U/T2hgtPk6TKI/AAAAAAAADg0/xyjZ9iAcZp8/s16/bquot.png);
+word-wrap: break-word;
+text-shadow: 0px 1px 0px white;
+margin:1em auto;
+padding:10px 20px 10px 40px;
+border-radius: 3px;
 }
